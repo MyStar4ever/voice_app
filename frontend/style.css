@@ -1,0 +1,41 @@
+body {
+    margin: 0;
+    background-color: #1a1a2e;
+    color: #ccc;
+    font-family: "Comic Sans MS", sans-serif;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    overflow: hidden; /* убираем полосы прокрутки */
+}
+
+.header {
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    gap: 10px;
+}
+
+button {
+    padding: 8px 16px;
+    border: none;
+    background-color: #333366;
+    color: #ccc;
+    cursor: pointer;
+    font-size: 16px;
+    border-radius: 5px;
+}
+
+button:hover {
+    background-color: #555588;
+}
+
+.text-container {
+    flex: 1;
+    margin: 0 auto;
+    width: 70%;
+    padding: 20px;
+    overflow-y: auto;
+    outline: none;
+    border: none;
+}
